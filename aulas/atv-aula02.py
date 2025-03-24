@@ -34,7 +34,7 @@ print('A cor do André foi: ' + cor3)
 print('A cor da Camila foi: ' + cor4)
 
 os.system('cls')
-lista_nomes = ['indice_0', 'indice_1', 'indice_2']
+lista_nomes = ['indice_0', 'indice_1', 'indice_2', 'André']
 lista_cores = []
 
 # lista_cores[0] = input('Digite sua cor preferida: ')
@@ -54,3 +54,12 @@ print(lista_cores)
 # indice_lista = int(input("Digite qual indice vai ser alterado: "))
 # lista_nomes[indice_lista] = nome_temp
 # print("LISTA MODIFICADA: ",lista_nomes)
+
+
+# ADICIONAR ITEM
+lista_nomes.append('Manuel')
+print(lista_nomes)
+
+# REMOVER ITEM
+lista_nomes.remove('André')
+print(lista_nomes)
