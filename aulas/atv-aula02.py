@@ -35,10 +35,22 @@ print('A cor da Camila foi: ' + cor4)
 
 os.system('cls')
 lista_nomes = ['indice_0', 'indice_1', 'indice_2']
-lista_cores = ['', '', '']
+lista_cores = []
 
-print('LISTA ATUAL: ', lista_nomes)
-nome_temp = input("Digite um nome: ")
-indice_lista = int(input("Digite qual indice vai ser alterado: "))
-lista_nomes[indice_lista] = nome_temp
-print("LISTA MODIFICADA: ",lista_nomes)
+# lista_cores[0] = input('Digite sua cor preferida: ')
+# lista_cores[1] = input('Digite sua cor preferida: ')
+# lista_cores[2] = input('Digite sua cor preferida: ')
+# lista_cores[3] = input('Digite sua cor preferida: ')
+
+# append - adiciona um item smepre no final
+# range - n-1 (4-1)
+for i in range(5):
+    #lista_cores[i] = input("Digite uma cor: ")
+    lista_cores.append(input('Digite sua cor favorita: '))
+print(lista_cores)
+
+# print('LISTA ATUAL: ', lista_nomes)
+# nome_temp = input("Digite um nome: ")
+# indice_lista = int(input("Digite qual indice vai ser alterado: "))
+# lista_nomes[indice_lista] = nome_temp
+# print("LISTA MODIFICADA: ",lista_nomes)
